@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rotgerberei.krafft-fahrnau.de/sitemap.xml
