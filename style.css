@@ -65,3 +65,13 @@ header{position:relative;background:#fffdf9;border-bottom:1px solid #e7dfd5}
 .home-context{max-width:1180px;margin:0 auto 50px;padding:22px 28px;border-top:1px solid #ddd0c2}
 @media(max-width:1100px){.nav{grid-template-columns:1fr;gap:14px}.links{gap:10px 17px}.home-bottom{grid-template-columns:1fr}.hero{min-height:330px!important}}
 @media(max-width:750px){.nav{padding:14px 18px}.brand{font-size:27px}.links a{font-size:13px}.hero{min-height:360px!important}.hero-content{padding:42px 22px!important}.hero h1{font-size:3.3rem}.hero p{font-size:1.04rem}.three{grid-template-columns:1fr!important;padding:12px 15px!important;gap:12px!important}.era{min-height:295px!important}.home-bottom{padding:0 15px;gap:25px}.focus-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.focus-grid a:nth-child(2n){border-right:0}.home-focus h2{font-size:26px}}
+
+
+/* Bildkorrektur: helle Hero-Aufnahme und lesbare weisse Kachelschrift */
+.hero{background-image:linear-gradient(90deg,rgba(28,16,9,.77) 0%,rgba(30,18,11,.48) 32%,rgba(30,18,11,.12) 75%),url('assets/krafft-original-2.webp')!important;background-position:center 48%!important;}
+.era.gestern,.era.today,.era.tomorrow{color:#fff!important;}
+.era.gestern::before,.era.today::before,.era.tomorrow::before{z-index:0!important;display:block!important;background:linear-gradient(90deg,rgba(24,17,12,.84) 0%,rgba(24,17,12,.61) 43%,rgba(24,17,12,.05) 100%)!important;}
+.era.tomorrow::before{background:linear-gradient(90deg,rgba(19,39,13,.88) 0%,rgba(19,39,13,.64) 43%,rgba(19,39,13,.06) 100%)!important;}
+.era .era-inner,.era .era-inner *:not(.btn){color:#fff!important;text-shadow:0 1px 3px rgba(0,0,0,.38)!important;}
+.era .btn{color:#fff!important;background:transparent!important;border:2px solid #fff!important;text-shadow:none!important;}
+.era .btn:hover{color:#211910!important;background:#fff!important;}
