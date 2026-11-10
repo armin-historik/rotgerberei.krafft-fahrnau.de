@@ -5,3 +5,34 @@
 .archive-photo{margin:22px 0}.archive-photo img{width:100%;height:auto;display:block}.archive-photo figcaption{font:13px/1.5 Arial,sans-serif;color:#5c564f;padding:9px 0}.source-table{width:100%;border-collapse:collapse;margin:18px 0}.source-table th,.source-table td{border-bottom:1px solid #ddd;padding:12px;text-align:left;vertical-align:top}.source-table th{background:#eee9df}
 
 .research-panel{background:#eee8db;border-left:4px solid #8b684a;padding:24px 28px;margin:28px 0}.research-panel h2{margin-top:0}.table-scroll{overflow-x:auto;margin:24px 0}.table-scroll table{width:100%;border-collapse:collapse;min-width:600px}.table-scroll th,.table-scroll td{border-bottom:1px solid #d4cabc;padding:13px 15px;text-align:left;vertical-align:top}.table-scroll th{background:#e9e0d2}.feature-links{display:flex;gap:14px;flex-wrap:wrap}.source-ref{font-size:.91rem;color:#665d52;border-top:1px solid #ddd;padding-top:14px}.document-image{margin:28px 0}.document-image img{width:100%;max-width:900px;height:auto}.document-image figcaption{font-size:.85rem;color:#61594e}
+
+/* Layoutkorrektur 10.11.2026: sichtbare Archivbilder und sauberer Seitenraster */
+html,body{width:100%;max-width:100%;overflow-x:hidden}
+.nav{max-width:1480px;display:grid;grid-template-columns:270px minmax(0,1fr);align-items:center;gap:28px}
+.brand{font-size:27px;white-space:normal}
+.links{justify-content:flex-end;gap:10px 17px}
+.links a{font-size:14px}
+.hero{min-height:485px;background:#2e251f url('assets/krafft-original-2.webp') center 49%/cover no-repeat}
+.hero:before,.hero:after{display:none!important}
+.hero-shade{z-index:-1;background:linear-gradient(90deg,rgba(17,15,12,.78),rgba(17,15,12,.63) 48%,rgba(17,15,12,.73))}
+.hero-content{position:relative;z-index:1}
+.three{max-width:1390px;gap:12px;padding:16px 24px 26px}
+.era{min-height:360px;border:0;border-radius:2px;overflow:hidden;padding:30px;background-repeat:no-repeat;background-size:cover;background-position:center}
+.era.gestern{background-image:url('assets/krafft-original-2.webp');background-position:41% center}
+.era.today{background-image:url('assets/krafft-original-3.webp');background-position:32% center}
+.era.tomorrow{background-image:url('assets/krafft-original-4.webp');background-position:40% center}
+.era:before{background:linear-gradient(90deg,rgba(251,246,234,.97) 0%,rgba(251,246,234,.88) 42%,rgba(251,246,234,.28) 100%)}
+.era.today:before{background:linear-gradient(90deg,rgba(248,245,237,.97),rgba(248,245,237,.86) 42%,rgba(248,245,237,.27))}
+.era.tomorrow:before{background:linear-gradient(90deg,rgba(222,238,235,.98),rgba(222,238,235,.87) 45%,rgba(222,238,235,.23))}
+.era-inner{z-index:1}
+.research-panel{max-width:1342px;margin:0 auto 26px;padding:28px 32px;border-left:4px solid #8b684a;border-radius:2px}
+.research-panel h2{font-size:29px;line-height:1.2}
+.research-panel p{max-width:1060px}
+.lower{max-width:1390px}
+.topic-image{background-image:url('assets/krafft-original-3.webp')!important;background-size:cover!important;background-position:center!important}
+.topics a:nth-child(2) .topic-image{background-image:url('assets/krafft-original-2.webp')!important}
+.topics a:nth-child(3) .topic-image{background-image:url('assets/krafft-original-4.webp')!important}
+.topics a:nth-child(4) .topic-image{background-image:url('assets/krafft-original-1.webp')!important}
+@media(max-width:1150px){.nav{grid-template-columns:1fr}.links{justify-content:flex-start}.three{gap:10px}.era{padding:23px}.era h2{font-size:31px}}
+@media(max-width:800px){.three{grid-template-columns:1fr;padding:12px 16px}.era{min-height:300px}.research-panel{margin:0 16px 20px}.lower{grid-template-columns:1fr}}
+@media(max-width:650px){.hero{min-height:390px}.research-panel{padding:22px}.research-panel h2{font-size:24px}}
