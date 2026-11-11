@@ -8,3 +8,6 @@ Aktualisierung: Zukunftskapitel umfassend ausgebaut. Die sechs Materialmotive si
 
 
 Bilddesign: Die drei neu generierten Dateien `gestern-illustration.webp`, `pflanzen-illustration.webp` und `myzel-illustration.webp` sind illustrative Darstellungen, keine historischen Dokumentarfotos und keine Fotografien realer Herstellerprodukte. Das Hero-Foto und das Foto der Heute-Kachel stammen aus den beigefügten Krafft-Scans. Bildrechte der historischen Vorlagen vor Veröffentlichung klären.
+
+
+11.11.2026: zukunft.html fachlich erweitert, neue CSS-Regeln, übrige Seiten unverändert.
