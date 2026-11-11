@@ -86,3 +86,17 @@ header{position:relative;background:#fffdf9;border-bottom:1px solid #e7dfd5}
 .today-page .today-references li{padding-left:5px}
 @media(max-width:950px){.today-page .today-waterflow{grid-template-columns:1fr 1fr;gap:12px}.today-page .today-waterflow b{display:none}}
 @media(max-width:650px){.today-page .today-waterflow{grid-template-columns:1fr}.today-page .today-lead figure img{height:270px}}
+
+
+/* Ergänzungen Gestern */
+.yesterday-lead{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(260px,.88fr);align-items:center;gap:2.3rem}
+.yesterday-hero-photo{margin:0;overflow:hidden;border-radius:18px;background:#ede7d9;box-shadow:0 10px 30px #39291616}
+.yesterday-hero-photo img{width:100%;height:350px;object-fit:cover;display:block}
+.yesterday-hero-photo figcaption{padding:12px 16px;font-size:.78rem;color:#61594d;line-height:1.5}
+.yesterday-diagram{display:flex;align-items:stretch;gap:10px;margin:1.5rem 0;flex-wrap:wrap}
+.yesterday-diagram>div{flex:1 1 150px;border:1px solid #d9d6c8;background:#f4f0e6;border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:7px}
+.yesterday-diagram b{font-size:.8rem;color:#697a4d}
+.yesterday-diagram strong{color:#353e2c}
+.yesterday-diagram span:not(.yesterday-arrow){font-size:.82rem;color:#625f54}
+.yesterday-diagram>.yesterday-arrow{align-self:center;color:#8c8e77;font-size:1.35rem}
+@media(max-width:850px){.yesterday-lead{grid-template-columns:1fr}.yesterday-hero-photo img{height:290px}.yesterday-diagram>.yesterday-arrow{display:none}}
