@@ -5,3 +5,5 @@ Neu: damals.html vollständig ausgearbeitet und style.css ergänzt. Alle übrige
 Upload: Inhalt des ZIP in das Root-Verzeichnis des GitHub-Pages-Repositories hochladen.
 
 Quellenhinweis: Die historische Krafft-Chronologie beruht auf der Jubiläumsschrift von 1929. Bildzuordnung der historischen Aufnahme vor endgültiger Freigabe anhand der Originalvorlage prüfen.
+
+Korrektur 11.11.2026: Abschnitt „Lohe“ in damals.html auf dokumentierte Fichtenlohe bei Krafft angepasst; Ananasbild durch neu erstellte Fichtenlohe-Illustration ersetzt. Bregenz ohne unbelegten Lieferweg eingeordnet.
